@@ -12,22 +12,22 @@ const btn = document.querySelectorAll('.item');
 document.addEventListener('keydown', function(event) {
         switch (event.code){
                 case 'KeyA':
-                        playSound ('.//sounds/19117_MusicBass_DIGIJ03-93-2.mp3');
+                        playSound ('.//burps/1.mp3');
                         break;
                 case 'KeyS':
-                        playSound ('.//sounds/10302_1369836097.mp3');
+                        playSound ('.//burps/2.mp3');
                         break;
                 case 'KeyD':
-                        playSound ('.//sounds/14152_1459951867.mp3');
+                        playSound ('.//burps/3.mp3');
                         break;
                 case 'KeyF':
-                        playSound ('.//sounds/14153_1459951867.mp3');
+                        playSound ('.//burps/4.mp3');
                         break;
                 case 'KeyG':
-                        playSound ('.//sounds/14741_1460058298.mp3');
+                        playSound ('.//burps/5.mp3');
                         break;
                 case 'KeyH':
-                        playSound ('.//sounds/103031369836097.mp3');
+                        playSound ('.//burps/6.mp3');
                         break;
         }
 
@@ -40,17 +40,17 @@ document.addEventListener('keydown', function(event) {
          for(let i = 0; i < btn.length; i++){
                  btn[i].addEventListener('click', function(el){
                          if(el.target.classList.contains('item1')){
-                                 playSound('.//sounds/19117_MusicBass_DIGIJ03-93-2.mp3');
+                                 playSound('.//burps/1.mp3');
                          } else if(el.target.classList.contains('item2')){
-                                 playSound ('.//sounds/10302_1369836097.mp3')
+                                 playSound ('.//burps/2.mp3')
                          } else if(el.target.classList.contains('item3')){
-                                 playSound ('.//sounds/14152_1459951867.mp3')
+                                 playSound ('.//burps/3.mp3')
                          } else if(el.target.classList.contains('item4')){
-                                 playSound ('.//sounds/14153_1459951867.mp3')
+                                 playSound ('.//burps/4.mp3')
                          } else if(el.target.classList.contains('item5')){
-                                 playSound ('.//sounds/14741_1460058298.mp3')
+                                 playSound ('.//burps/5.mp3')
                          } else if(el.target.classList.contains('item6')){
-                                 playSound ('.//sounds/103031369836097.mp3')
+                                 playSound ('.//burps/6.mp3')
                          }
 
 
