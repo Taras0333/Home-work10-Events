@@ -21,7 +21,7 @@ document.addEventListener('keydown', function(event) {
                         playSound ('.//sounds/14153_1459951867.mp3');
                         break;
                 case 'KeyF':
-                        playSound ('.//sounds/14741_1460058298.mp3);
+                        playSound ('.//sounds/14741_1460058298.mp3');
                         break;
                 case 'KeyG':
                         playSound ('.//sounds/19117_MusicBass_DIGIJ03-93-2.mp3');
